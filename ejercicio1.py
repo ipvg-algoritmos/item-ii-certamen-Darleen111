@@ -9,3 +9,9 @@
 # 4. Luego, solicita al usuario un número y llama a la función con ese valor
 
 # 👇 Aquí comienza tu código
+def mostrar_tabla(n):
+    for o in range(1,11):
+        print(n*o)
+
+mostrar_tabla(5)
+  

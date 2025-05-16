@@ -10,3 +10,12 @@
 # 5. Todas las notas deben estar entre 1.0 y 7.0.
 
 # 👇 Aquí comienza tu código
+
+promedio = int(input("cuantas notas ingresaras: "))
+    if promedio > 5:
+        nota1: int(input("valor de nota1:"))
+        nota2: int(input("valor de nota2:"))
+        nota3: int(input("valor de nota3:"))
+        nota4: int(input("valor de nota4:"))
+        nota5: int(input("valor de nota5:"))
+elif print((nota1 + nota2 + nota3 + nota4 + nota5) , /5)
