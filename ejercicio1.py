@@ -14,4 +14,6 @@ def mostrar_tabla(n):
         print(n*o)
 
 mostrar_tabla(5)
+
+
   

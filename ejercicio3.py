@@ -12,15 +12,11 @@
 
 # 👇 Aquí comienza tu código
 
+#1 
 
-
-palabra = (input("ingresa la palabra "))
-
-
-es_palindromo ():
-if palabra == palabra[::-1]:
-    print("es polindromo")
-else: 
-    print("no es palindromo")
-
-def es_palindromo
+palabra = (input("ingresa la palabra ")
+# 3. Muestra si es o no un palíndromo con un mensaje claro.
+if es_palindromo(entrada):
+    print(f"'{entrada}' es un palíndromo.")
+else:
+    print(f"'{entrada}' no es un palíndromo.")

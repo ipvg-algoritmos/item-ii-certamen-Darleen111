@@ -11,8 +11,13 @@
 
 # 👇 Aquí comienza tu código
 
-cantidad_nota = int(input("ingresa la cantidad de notas:"))
-notas = [ ]
-for i in range (cantidad_nota):
-    notas[i] = float (input(f"ingresa nota (i+1)"))
-    resultado = suma(notas)/ cantidad_nota
+
+for i in range(cantidad_nota):
+    nota = float(input(f"ingresa nota {i + 1}: "))
+    notas.append(nota)
+
+if cantidad_nota > 0:
+    resultado = sum(notas) / cantidad_nota
+    print(f"El promedio de las notas es: {resultado}")
+else:
+    print("No se ingresaron notas.")
