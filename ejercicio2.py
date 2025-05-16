@@ -11,11 +11,8 @@
 
 # 👇 Aquí comienza tu código
 
-promedio = int(input("cuantas notas ingresaras: "))
-    if promedio > 5:
-        nota1: int(input("valor de nota1:"))
-        nota2: int(input("valor de nota2:"))
-        nota3: int(input("valor de nota3:"))
-        nota4: int(input("valor de nota4:"))
-        nota5: int(input("valor de nota5:"))
-elif print((nota1 + nota2 + nota3 + nota4 + nota5) , /5)
+cantidad_nota = int(input("ingresa la cantidad de notas:"))
+notas = [ ]
+for i in range (cantidad_nota):
+    notas[i] = float (input(f"ingresa nota (i+1)"))
+    resultado = suma(notas)/ cantidad_nota
